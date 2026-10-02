@@ -9,5 +9,25 @@
 			"database_id": "dbdee30a-b599-41fd-9058-e6ad5f8285a0",
 			"remote": true
 		}
-	]
+	],
+	{
+  // ...
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    },
+    "traces": {
+      "enabled": false,
+      "head_sampling_rate": 1,
+      "persist": true
+    },
+    "issue_detection": {
+      "enabled": false
+    }
+  },
+  // ...
+}
 }

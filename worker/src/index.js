@@ -1792,7 +1792,7 @@ text-align:center
 
 
         message =
-          "Payment verified successfully. Your PRO license is being activated.";
+          "You can close this page and return to the extension.<br>Your license is being activated.";
 
       } else if (
         status ===
@@ -1851,7 +1851,7 @@ body{
 }
 
 .card{
-  max-width:520px;
+  max-width:540px;
   margin:60px auto;
   padding:40px;
   background:white;
