@@ -10,24 +10,18 @@
 			"remote": true
 		}
 	],
-	{
-  // ...
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "head_sampling_rate": 1,
-      "invocation_logs": true,
-      "persist": true
-    },
-    "traces": {
-      "enabled": false,
-      "head_sampling_rate": 1,
-      "persist": true
-    },
-    "issue_detection": {
-      "enabled": false
+	"observability": {
+		"logs": {
+			"enabled": true
+		}
+	},
+	"vars": {
+    "LICENSE_SIGNING_KEY": {
+      "crv": "P-256",
+      "d": "qzAk_RBnY9BVraqDMDCcARlXU8wrB_cfBkOH20VyfYg",
+      "kty": "EC",
+      "x": "VAGAqhtx9Ix1Fp3d6fsXO12UQ1qvRQK360rPGfBTc6Q",
+      "y": "MtnJr-i1nzxpywRqRqeYJWtOY3RLvCIcaLzTnMMCBvw"
     }
-  },
-  // ...
-}
+  }
 }
